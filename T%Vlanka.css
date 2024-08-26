@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* HEADER*/
+.header{
+    display: flex;
+    height: 90px;
+    background-color: gray;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading{
+    padding-left: 15px;
+    color: white;
+}
+
+.searchBar{
+    padding-right: 15px;
+    display: flex;
+}
+.search{
+    height: 30px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.button{
+    color: rgb(2,190,2);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 3px;
+    border: none;
+    border: 5px solid rgb(2,190,2);
+    font-weight: 500;
+}
+
+/*MAIN*/
+.main{
+    margin-top: 40px;
+    display: flex;
+}
+ 
+.leftBar{
+    background-color: rgb(39,212,224);
+    align-items: center;
+    flex-basis: 20%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+a{
+    text-decoration: none;
+}
+.right{
+    flex-basis: 70%;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+table{
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+    border-collapse: collapse;
+
+
+}
+tr:nth-child(even)
+    { 
+        background-color: rgb(240,239,239);
+    }
+td{
+    height: 70px; 
+    border: 2px solid black;
+
+}
+.theading{
+    margin-bottom: 40px;
+}
+.green{
+    background-color: rgb(23,187,64);
+
+}
+.red{
+    background-color: rgb(243,33,33);
+}
+.white{
+    font-weight: 600;
+    color: white;
+}
+/*
+FOOTEr*/
+.footer{
+    background-color: gray;
+    margin-top: 5px;
+
+}
+.contact{
+    justify-content: space-between;
+    display: flex;
+}
+.padding{
+    padding: 25px;
+}
+.webDeveloper{
+    text-decoration: underline;
+    float:right;
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
